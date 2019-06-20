@@ -44,5 +44,13 @@ VENDOR_SECURITY_PATCH := 2019-05-05
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Treble
+BOARD_VENDORIMAGE_PARTITION_SIZE := 629145600
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_VNDK_VERSION := current
+TARGET_COPY_OUT_VENDOR := vendor
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
