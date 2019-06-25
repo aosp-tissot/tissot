@@ -7,8 +7,7 @@ ro.vendor.audio.sdk.fluencetype=fluence
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.instagram.android
-vendor.camera.aux.packagelist2=com.snapchat.android \
+vendor.camera.aux.packageblacklist=com.google.android.GoogleCamera
 persist.camera.dual.camera=0
 
 # Dalvik
