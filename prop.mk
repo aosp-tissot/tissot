@@ -7,7 +7,7 @@ ro.vendor.audio.sdk.fluencetype=fluence
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-vendor.camera.aux.packageblacklist=com.google.android.GoogleCamera
+vendor.camera.aux.packageblacklist=com.google.android.GoogleCamera,com.discord
 persist.camera.dual.camera=0
 
 # Dalvik
